@@ -18,7 +18,7 @@ I like turning messy data into dashboards and insights people actually use — w
 ## 📊 Featured Projects
 
 ### U+ Youth Volunteerism Benchmark Dashboard
-Built for U+ (UPTAS Community), a Canadian youth-development nonprofit, using Statistics Canada data. Excel workbook with 7 sheets, 5 charts, 13 QA checks, and a written insight memo.
+Built for U+ (U+ Education Organization), a Canadian youth-development nonprofit, using Statistics Canada data. Excel workbook with 7 sheets, 5 charts, 13 QA checks, and a written insight memo.
 
 ### E-Commerce Data Analytics
 SQL/BigQuery analysis of e-commerce transaction data.
