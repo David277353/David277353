@@ -49,7 +49,7 @@ End-to-end analysis of a 10,000-customer banking dataset — Design Thinking fra
 ## 🎯 Currently
 
 - Applying to data/business analyst co-op and internship roles (recently: Export Development Canada, Geotab, Sheridan Growth Grant co-op)
-- Volunteering as a data analyst with U+ (UPTAS Community)
+- Volunteering as a data analyst with U+ (U+ Education Organization)
 - Sharpening SQL, DAX, and Power BI skills through a structured analytics learning program
 
 ---
