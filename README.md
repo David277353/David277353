@@ -1,4 +1,4 @@
-# Hi, I'm Khoa Tran 👋
+# Hi, I'm Khoa Tran 
 
 Data Analytics student at Sheridan College (Software Development & Network Engineering diploma, graduating Dec 2026), actively looking for co-op/internship opportunities in data analytics.
 
@@ -6,7 +6,7 @@ I like turning messy data into dashboards and insights people actually use — w
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 **Analytics & BI:** Power BI · DAX · Tableau · Excel  
 **Data & Programming:** SQL · BigQuery · Python  
@@ -15,7 +15,7 @@ I like turning messy data into dashboards and insights people actually use — w
 
 ---
 
-## 📊 Featured Projects
+##  Featured Projects
 
 ### U+ Youth Volunteerism Benchmark Dashboard
 Built for U+ (U+ Education Organization), a Canadian youth-development nonprofit, using Statistics Canada data. Excel workbook with 7 sheets, 5 charts, 13 QA checks, and a written insight memo.
@@ -46,7 +46,7 @@ End-to-end analysis of a 10,000-customer banking dataset — Design Thinking fra
 
 ---
 
-## 🎯 Currently
+## Currently
 
 - Applying to data/business analyst co-op and internship roles (recently: Export Development Canada, Geotab, Sheridan Growth Grant co-op)
 - Volunteering as a data analyst with U+ (U+ Education Organization)
@@ -54,7 +54,7 @@ End-to-end analysis of a 10,000-customer banking dataset — Design Thinking fra
 
 ---
 
-## 📫 Connect With Me
+## Connect With Me
 
 - GitHub: [@David277353](https://github.com/David277353)
 - LinkedIn: [in/khoatran-da](https://linkedin.com/in/khoatran-da)
@@ -62,4 +62,4 @@ End-to-end analysis of a 10,000-customer banking dataset — Design Thinking fra
 
 ---
 
-⭐️ *Thanks for stopping by!*
+ *Thanks for stopping by!*
