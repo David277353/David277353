@@ -53,9 +53,9 @@ SQL analysis of multi-million-row Google Analytics transaction data in BigQuery.
 |---|---|---|
 | [Fashion Market & Sales Analysis](https://github.com/David277353/fashion-market-sales-powerbi) | 4-page marketing performance report: 175 campaigns, ROAS by funnel stage, zero-ROAS campaigns flagged | Power BI, DAX |
 | Bank Customer Churn Analysis | 10,000-customer churn analysis with a star schema model, 3-page dashboard, and manager-facing slide summary | Power BI, DAX |
-| [Smartphone Sales & Customer Behavior](https://github.com/David277353/SmartphoneSales-Hackathon-KhoaTran-DataAnalystProject) | Hackathon analysis of sales trends and purchasing behavior | ADD_TOOLS |
-| UN SDG #4: Quality Education | Sheridan Datathon 2025, 5-person team. I handled data analysis and validated AI-agent outputs against manual EDA | Python, Vertex AI |
-| BioLinker | BenchSci hackathon: BigQuery schema for a self-serve biomedical knowledge explorer | BigQuery, Python |
+| [Smartphone Sales & Customer Behavior](https://github.com/David277353/SmartphoneSales-Hackathon-KhoaTran-DataAnalystProject) | Hackathon analysis of sales trends and purchasing behavior | SQL, Google BigQuery |
+| [UN SDG #4: Quality Education](https://github.com/David277353/DFG-SD) | Sheridan Datathon 2025, 5-person team. I handled data analysis and validated AI-agent outputs against manual EDA | Python, Vertex AI |
+| [BioLinker](https://github.com/David277353/BenchSciChallenge) | BenchSci hackathon: BigQuery schema for a self-serve biomedical knowledge explorer | BigQuery, Python |
 
 ---
 
