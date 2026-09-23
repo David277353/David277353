@@ -1,65 +1,91 @@
-# Hi, I'm Khoa Tran 
+# Hi, I'm Khoa (David) Tran 👋
 
-Data Analytics student at Sheridan College (Software Development & Network Engineering diploma, graduating Dec 2026), actively looking for co-op/internship opportunities in data analytics.
+**Data Analyst** · SQL · Python · Power BI · PostgreSQL · Toronto, ON
 
-I like turning messy data into dashboards and insights people actually use — whether that's for a nonprofit, an e-commerce dataset, or a hackathon challenge.
+I'm a final-year Software Development & Network Engineering student at Sheridan College (graduating **December 2026**) who ended up spending most of my time on data: building pipelines, modeling warehouses, and turning messy source files into reports people can actually trust.
 
----
+The part I enjoy most is the unglamorous middle: finding the data quality issue nobody documented, writing down the assumption behind an ambiguous requirement, and making sure the numbers reconcile before anyone sees a chart.
 
-##  Tech Stack
-
-**Analytics & BI:** Power BI · DAX · Tableau · Excel  
-**Data & Programming:** SQL · BigQuery · Python  
-**ML/Cloud:** Google Vertex AI  
-**Other:** Design Thinking frameworks for analytics projects
+🎯 **Looking for:** new-grad / full-time **Data Analyst, BI Analyst, or Analytics Engineer** roles in Ontario or New Brunswick, starting early 2027.
 
 ---
 
-##  Featured Projects
+## 🔧 Featured Projects
 
-### U+ Youth Volunteerism Benchmark Dashboard
-Built for U+ (U+ Education Organization), a Canadian youth-development nonprofit, using Statistics Canada data. Excel workbook with 7 sheets, 5 charts, 13 QA checks, and a written insight memo.
+### VietDist Analytics Platform · *Analytics Engineering*
+`Python` `PostgreSQL` `SQLAlchemy` `Google Drive API` `Azure AD / MSAL` `Power BI`
 
-### E-Commerce Data Analytics
-SQL/BigQuery analysis of e-commerce transaction data.
-🔗 [github.com/David277353/ECommerceProject-DataAnalyst-KhoaTran](https://github.com/David277353/ECommerceProject-DataAnalyst-KhoaTran)
+End-to-end pipeline for a simulated FMCG distributor, built solo against a realistic business requirements document: 10 source files in 4 formats (CSV / XLSX / XLSM / XLSB) → PostgreSQL Medallion warehouse (Bronze / Silver / Gold) → Power BI semantic model.
 
-### Fashion Market & Sales Analysis
-Power BI dashboard analyzing fashion retail sales and market trends.
-🔗 [github.com/David277353/fashion-market-sales-powerbi](https://github.com/David277353/fashion-market-sales-powerbi)
+- **SCD Type 2** employee dimension with point-in-time joins, so a rep changing region doesn't rewrite last year's reports
+- **Temporal fact table** for a sales plan revised multiple times a year, keeping every version queryable
+- Row counts asserted end to end (raw = staging = fact); 0 orphan keys, 0 duplicates on the true grain
+- Every ambiguous requirement logged in an assumptions file instead of silently guessed
 
-### HR Analytics Dashboard
-Power BI dashboard exploring HR metrics like attrition, headcount, and performance.
+🔗 [Repository](https://github.com/David277353/vietdist-analytics)
 
-### Smartphone Sales & Customer Behavior Analysis
-Analysis of smartphone sales trends and customer purchasing behavior.
-🔗 [github.com/David277353/SmartphoneSales-Hackathon-KhoaTran-DataAnalystProject](https://github.com/David277353/SmartphoneSales-Hackathon-KhoaTran-DataAnalystProject)
+### Sales Forecasting & Inventory Planning · *Machine Learning*
+`Python` `LightGBM` `SHAP` `pandas`
 
-### UN SDG #4: Quality Education
-3-member team project using Python and Vertex AI to explore data related to UN Sustainable Development Goal #4.
+Global LightGBM model forecasting daily units sold across 676 SKUs and 6 sales channels, with SHAP explanations the commercial team can read in units of product.
 
-### Marketing ROI Dashboard
-Power BI dashboard built on a Star Schema model with six DAX measure groups, using Z-pattern page layouts to analyze marketing ROI.
+- Found an undocumented **2-day reporting cycle** in the data that made one naive baseline look far worse than it was, and switched to a fair baseline instead of quoting the inflated comparison
+- **WAPE 0.531**, about 17% better than the fair lag-14 baseline, with known limitations documented in the README
 
-### Bank Customer Churn Analysis
-End-to-end analysis of a 10,000-customer banking dataset — Design Thinking framework, data cleaning, DAX measures, and a 3-page Power BI dashboard, delivered with a manager-facing PowerPoint summary.
+🔗 [Repository](https://github.com/David277353/Sales-Forecasting-Inventory-Planning)
 
----
+### E-Commerce Data Analytics · *SQL / Cloud*
+`SQL` `BigQuery` `Google Analytics sample dataset`
 
-## Currently
+SQL analysis of multi-million-row Google Analytics transaction data in BigQuery.
 
-- Applying to data/business analyst co-op and internship roles (recently: Export Development Canada, Geotab, Sheridan Growth Grant co-op)
-- Volunteering as a data analyst with U+ (U+ Education Organization)
-- Sharpening SQL, DAX, and Power BI skills through a structured analytics learning program
+- Unnested hit- and product-level records into an analysis-ready table
+- Cumulative revenue tracking with window functions ($240K+ over 14 weeks)
+- CTE / JOIN co-purchase analysis surfacing a concrete bundling recommendation
+
+🔗 [Repository]((https://github.com/David277353/ECommerceProject-DataAnalyst-KhoaTran))
 
 ---
 
-## Connect With Me
+## 📁 More Projects
 
-- GitHub: [@David277353](https://github.com/David277353)
-- LinkedIn: [in/khoatran-da](https://linkedin.com/in/khoatran-da)
-- Email: ktran4618@gmail.com
+| Project | What it is | Tools |
+|---|---|---|
+| [Fashion Market & Sales Analysis](https://github.com/David277353/fashion-market-sales-powerbi) | 4-page marketing performance report: 175 campaigns, ROAS by funnel stage, zero-ROAS campaigns flagged | Power BI, DAX |
+| Bank Customer Churn Analysis | 10,000-customer churn analysis with a star schema model, 3-page dashboard, and manager-facing slide summary | Power BI, DAX |
+| [Smartphone Sales & Customer Behavior](https://github.com/David277353/SmartphoneSales-Hackathon-KhoaTran-DataAnalystProject) | Hackathon analysis of sales trends and purchasing behavior | ADD_TOOLS |
+| UN SDG #4: Quality Education | Sheridan Datathon 2025, 5-person team. I handled data analysis and validated AI-agent outputs against manual EDA | Python, Vertex AI |
+| BioLinker | BenchSci hackathon: BigQuery schema for a self-serve biomedical knowledge explorer | BigQuery, Python |
 
 ---
 
- *Thanks for stopping by!*
+## 🤝 Volunteer Work
+
+**Data Analyst, U+ (U+ Toastmaster/U+ Education) · Volunteer Connect**
+Analytics for a Canadian youth-development nonprofit, including:
+- **Youth Volunteerism Benchmark** (solo): Statistics Canada data, multi-sheet Excel model with documented QA checks and a plain-language insight memo for program staff
+- **DA-42 Career Impact** (team): labour-market and partner-prospect analysis in Tableau, shortlisting GTA organizations for outreach
+
+---
+
+## 🚧 Currently Building
+
+**E-commerce Analytics Warehouse**: Olist Brazilian e-commerce dataset, PostgreSQL + dbt (staging / intermediate / marts) + Power BI.
+
+---
+
+## 🛠️ Tech Stack
+
+**Data & SQL:** SQL · PostgreSQL · BigQuery
+**Programming:** Python (pandas, NumPy, SQLAlchemy, LightGBM, SHAP, Matplotlib, Plotly)
+**BI & Reporting:** Power BI · DAX · Excel · Tableau
+**Cloud:** GCP (BigQuery, Vertex AI) · AWS (coursework labs) · Azure AD
+**Workflow:** Git · GitHub · VS Code · DBeaver
+
+**Languages:** English · Vietnamese (native) · French (intermediate)
+
+---
+
+## 📫 Connect
+
+[LinkedIn](https://linkedin.com/in/khoatran-da) · [Email](mailto:ktran4618@gmail.com) · [GitHub](https://github.com/David277353)
